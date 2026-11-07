@@ -1,0 +1,7 @@
+# Impide el acceso directo por navegador a la carpeta app/
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+    Deny from all
+</IfModule>

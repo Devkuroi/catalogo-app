@@ -1,0 +1,15 @@
+# Archivos generados y empaquetados
+*.zip
+*.tar.gz
+dist_promocatalogo/
+tests/junit.xml
+
+# Entornos y editores
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.DS_Store
+Thumbs.db
