@@ -16,7 +16,7 @@ return [
         'host'     => 'localhost',
         'nombre'   => 'catalogo_db',
         'usuario'  => 'root',
-        'password' => '',
+        'password' => 'root',
         'charset'  => 'utf8mb4',
         // Opcional: DSN completo (útil para pruebas). Si se define, ignora host/nombre.
         'dsn'      => getenv('CATALOGO_DSN') ?: null,
